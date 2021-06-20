@@ -34,7 +34,7 @@ class Function(ScreenManager):
 		
 
 class Main(MDApp):
-	Builder.load_file('files/layout.kv')
+	Builder.load_file('layout.kv')
 	def build(self):
 		self.title = 'QR Code Generator/Scanner'
 		return Function()
